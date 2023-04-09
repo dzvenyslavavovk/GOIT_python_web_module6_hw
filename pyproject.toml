@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-python-web-module6-hw"
+version = "0.1.0"
+description = ""
+authors = ["dzvenyslavavovk <dzvinavovk.25@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_module6_hw"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^18.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
